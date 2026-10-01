@@ -1,0 +1,123 @@
+feature,type,missing_rate
+1.Provinsi,categorical,0.0
+5. Klasifikasi Desa/Kelurahan,categorical,0.0
+8. Pendidikan tertinggi,categorical,0.0626
+9. Status Pekerjaan,categorical,0.0626
+11. Kepemilikan Jaminan Kesehatan,categorical,0.0
+"A12.Dalam 1 tahun terakhir, apakah [NAMA] pernah didiagnosis TBC Paru / Flek paru oleh dokter?",categorical,0.0
+"A22.Dalam 1 tahun terakhir, apakah [NAMA] pernah didiagnosis menderita hepatitis oleh dokter?",categorical,0.0
+B01.Apakah [NAMA] pernah didiagnosis asma oleh dokter?,categorical,0.0
+B07.a.Apakah [NAMA] pernah didiagnosis diabetes mellitus (DM)/ kencing manis oleh dokter?,categorical,0.0
+B16.Apakah [NAMA] pernah didiagnosis menderita sakit jantung oleh dokter?,categorical,0.0
+G01.Apa yang [NAMA] lakukan untuk menghindari gigitan nyamuk?  a.	Tidur menggunakan kelambu tanpa insektisida,categorical,0.0881
+G01.b.	Tidur menggunakan kelambu dengan berinsektisida ≤ 3 tahun,categorical,0.0881
+G01.c.	Tidur menggunakan kelambu dengan berinsektisida > 3 tahun,categorical,0.0881
+G01.d.	Menggunakan repelen/ bahan-bahan pencegah gigitan nyamuk,categorical,0.0881
+G01.e.	Memakai obat nyamuk (bakar/semprot/elektrik),categorical,0.0881
+G03.a.Apakah [NAMA] tahu tentang anak stunting?,categorical,0.0881
+G03.c.Selama ini darimana [NAMA] mengetahui informasi tentang stunting?,categorical,0.5187
+G07.Apakah [NAMA] biasa mencuci tangan?,categorical,0.0881
+G11.Apakah [NAMA] pernah merokok?,categorical,0.0881
+"G21.Apakah [NAMA] MENGUNYAH TEMBAKAU (nginang, nyirih, susur) selama 1 bulan terakhir?",categorical,0.0881
+"G32.Dalam 1 bulan terakhir, Apakah [NAMA] mengonsumsi minuman beralkohol?",categorical,0.0881
+H01.Berapa umur [NAMA] ketika pertama kali hamil?,numeric,0.0901
+H09.Apakah [NAMA] memeriksakan kehamilan ke tenaga kesehatan?,categorical,0.2562
+H29.Dimana tempat persalinan [NAMA ANAK]?,categorical,0.2562
+H32.Bagaimana metode persalinan [NAMA ANAK]?,categorical,0.2562
+I01.Apakah [NAMA] memiliki Buku KIA (Buku Kesehatan Ibu dan Anak)?,categorical,0.001
+I04.Usia kehamilan saat [NAMA] dilahirkan,numeric,0.0544
+I05.a.	Berapa berat badan [NAMA] saat dilahirkan,numeric,0.0791
+I07.Berapa panjang badan [NAMA] saat dilahirkan,numeric,0.2499
+I09.Apakah [NAMA] mempunyai catatan/ dokumen lingkar kepala?,categorical,0.0005
+I10.Salin dari catatan/dokumen lingkar kepala [NAMA],numeric,0.6437
+I12.Apakah  [NAMA] mendapatkan layanan neonatal dari petugas kesehatan pada 0-28 hari ? a.Pengukuran berat badan,categorical,0.1165
+I12.b.Pengukuran panjang badan,categorical,0.1165
+I12.c.Pengukuran suhu tubuh,categorical,0.1165
+I12.d.Perawatan tali pusat,categorical,0.1165
+I12.e.Pemberian imunisasi Hb-0,categorical,0.1165
+I12.f.Pemberian Vitamin K,categorical,0.1165
+I12.g.	Pemberian salep mata,categorical,0.1165
+I12.h.	Menanyakan status kesehatan,categorical,0.1165
+I12.i.	Memberitahu cara pemberian ASI yang baik,categorical,0.1165
+I12.j.	Menanyakan masalah dalam pemberian ASI,categorical,0.1165
+I12.k.	Menanyakan [NAMA] mengalami diare atau tidak,categorical,0.1165
+I12.l.	Memberitahukan mengenai tanda bahaya pada bayi,categorical,0.1165
+I15.Apakah [NAMA] mempunyai kelainan bawaan sejak lahir? a. Kaki pengkor,categorical,0.001
+I15.b. Hidrocephalus,categorical,0.001
+I15.c. Bibir sumbing,categorical,0.001
+I15.d. Kembar siam,categorical,0.001
+I15.e. Tidak punya lubang anus,categorical,0.001
+I15.f.  Down syndrom,categorical,0.001
+I15.g. Kelainan jantung bawaan,categorical,0.001
+I15.h. Thalasemia,categorical,0.001
+I16.Apakah [NAMA] pernah diimunisasi?,categorical,0.001
+I49.e.	Sakit-sakitan,categorical,0.7453
+I49.f.	Karena ikut penimbangan di Posyandu,categorical,0.7453
+I49.g.	Keluarga miskin (gakin),categorical,0.7453
+I49.h.	Lainnya,categorical,0.7453
+I37.Apakah saat ini [NAMA] masih disusui/diberi ASI (Air Susu Ibu)?,categorical,0.6684
+I50.a.	Air Susu ibu (ASI),categorical,0.7283
+"150.a.Jika Ya, berapa kali [NAMA] disusui? Jika 7 kali atau lebih, catat ‘7’",numeric,0.8079
+I50.b.	Air putih,categorical,0.7283
+I50.c.	Jus atau sari buah,categorical,0.7283
+"I50.d.	Air kaldu (seperti kaldu ayam, kaldu daging, atau kaldu ikan)",categorical,0.7283
+I50.e.	Susu formula bayi/balita,categorical,0.7283
+"I50.e.Jika Ya, berapa kali [Nama] minum susu? Jika 7 kali atau lebih, catat ‘7’",numeric,0.8684
+"I50.f.	Susu lainnya, seperti: susu bubuk, atau susu segar",categorical,0.7283
+"I50.g.	Minuman/cairan lainnya (seperti air gula, kental manis, teh, air tajin, susu kedelai, dll)",categorical,0.7283
+"I50.h.	Yogurt? (tidak termasuk Yakult, vitacarm dll)",categorical,0.7283
+"I50.i.	Makanan bayi bermerek, misalnya Sun, Milna, Cerelac dll",categorical,0.7283
+"I50.j.	Nasi, roti, mie, bubur, jagung, sagu atau makanan lain yang dibuat dari padi-padian seperti beras, gandum, sorgum, dll",categorical,0.7283
+"I50.k.	Labu kuning, wortel, atau ubi jalar yang berwarna kuning atau oranye didalamnya",categorical,0.7283
+"I50.l.	Kentang, ubi kayu/ketela pohon/singkong, talas, dan makanan lain dari akar- akaran atau akar umbi",categorical,0.7283
+"I50.m.	Sayuran hijau (bayam, kangkung, katuk, daun singkong, daun labu dll.)",categorical,0.7283
+"I50.n.	Buah-buahan yang kaya vitamin A yang masak, seperti mangga, pepaya, nangka, cempedak, kesemek, melon kuning",categorical,0.7283
+"I50.o.	Buah atau sayuran lainnya (seperti apel, alpukat, kapri, terong, oyong dll)",categorical,0.7283
+"I50.p.	Ati, ampela, ginjal, jantung, atau jeroan lainnya",categorical,0.7283
+"I50.q.	Daging: ayam, sapi, kambing, babi atau itik",categorical,0.7283
+I50.r.	Telur,categorical,0.7283
+I50.s.	Ikan/kerang segar atau asin,categorical,0.7283
+"I50.t.	Makanan dari kacang-kacangan (kacang kedelai, kacang merah, kacang tolo, kacang jogo, kacang hijau, kacang babi, kacang tanah, tahu, tempe, dll.)",categorical,0.7283
+I50.u.	Keju atau makanan lain yang terbuat dari susu,categorical,0.7283
+"I50.v.	Makanan padat, setengah padat, makanan lumat lainnya termasuk kue-kue seperti kue pisang, cucur, pancong, permen",categorical,0.7283
+1. Banyaknya anggota rumah tangga:,numeric,0.0
+2. Banyaknya balita (0-59 bulan),numeric,0.0
+3. Banyaknya anggota rumah tangga yang diwawancarai:,numeric,0.0
+4. Banyaknya Rumah Tangga dalam Bangunan Sensus,numeric,0.0
+5. Banyaknya orang dalam Bangunan Sensus,numeric,0.0
+1. Apakah [RUMAH TANGGA] mengetahui Apakah [RUMAH TANGGA] MENGETAHUI jenis fasilitas pelayanan kesehatan berikut? Keberadaan a.Puskesmas,categorical,0.0
+1.a.Alat Transportasi yang di gunakan - Puskesmas,categorical,0.0099
+1.a.Waktu yang diperlukan dari Rumah ke faskes - Puskesmas,numeric,0.0099
+1.a. Biaya Transportasi yang dikeluarkan - Puskesmas,categorical,0.0099
+1.Apakah jenis sarana air yang UTAMA digunakan oleh [RUMAH TANGGA] untuk keperluan minum saat ini?,categorical,0.0
+6.Bagaimana cara pengolahan air tersebut sebelum diminum?  a.	Dimasak,categorical,0.4115
+6.b.	Disaring/filtrasi,categorical,0.4115
+6.c. Ditambah larutan tawas,categorical,0.4115
+6.d. Ditambah larutan klorin,categorical,0.4115
+6.e. Dengan penyinaran matahari/UV,categorical,0.4115
+6.f.  Ditambah kapur,categorical,0.4115
+7.Apa jenis wadah penyimpanan air siap minum? a.	Panci/ember bertutup,categorical,0.0
+7.b.	Panci/ ember tidak bertutup,categorical,0.0
+7.c.	Teko/wadah bermulut kecil,categorical,0.0
+7.d.	Galon,categorical,0.0
+7.e. Lainnya,categorical,0.0
+"8.Apakah jenis sarana air yang UTAMA digunakan oleh [RUMAH TANGGA]  untuk keperluan SELAIN MINUM seperti untuk mandi, masak, mencuci, dan keperluan hygiene lainnya?",categorical,0.0
+11.Apakah [RUMAH TANGGA] memiliki fasilitas tempat buang air besar dan siapa saja yang menggunakan?,categorical,0.0
+12.Dimanakah lokasi tempat BAB tersebut?,categorical,0.0428
+14.Dimanakah tinja tersebut dialirkan?,categorical,0.0428
+17.Dimana tempat pembuangan air limbah utama dari kamar mandi / tempat cuci dan dapur? a.Kamar mandi,categorical,0.0
+17.b. Dapur,categorical,0.0
+18.Apa jenis tempat pengumpulan/ penampungan sampah basah (organik) di dalam rumah? a. Tempat sampah tertutup,categorical,0.0
+18. b. tempat sampah terbuka,categorical,0.0
+19.Bagaimana cara utama dalam menangan sampah [RUMAH TANGGA]?,categorical,0.0
+20.Jarak sumur/pompa ke tempat pembuangan kotoran/tinja terdekat?,categorical,0.7444
+21.Apakah tersedia tempat untuk untuk mencuci tangan?,categorical,0.0
+25.Jenis bahan bangunan utama atap rumah terluas?,categorical,0.0
+26.Jenis bahan bangunan utama plafon/langit-langit rumah terluas,categorical,0.0
+27.Jenis bahan bangunan utama lantai rumah terluas?,categorical,0.0
+28.Apakah bahan bangunan utama dinding rumah terluas?,categorical,0.0
+2.Luas lantai bangunan rumah  (BULATKAN DALAM METER PERSEGI),numeric,0.0
+1.Apakah ada anggota [RUMAH TANGGA] yang pernah menderita gangguan jiwa?,categorical,0.0
+3. Hubungan dengan KRT,categorical,0.0
+age_days,numeric,0.0
+sex,numeric,0.0

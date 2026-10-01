@@ -1,0 +1,21 @@
+{
+  "experiment": "Impact of resampling and cost-sensitive learning on probability calibration for stunting prediction (SKI 2023)",
+  "date": "2026-09-29",
+  "random_seed": 42,
+  "data": {"source": "SKI 2023 Balita 0-59 Bulan_asli labels.xlsx", "who_reference": "lenanthro.txt (WHO LMS, length/height-for-age)",
+           "outcome": "stunting = HAZ < -2", "exclusions": "missing height/position, age > 1856 d, |HAZ| > 6"},
+  "split": {"outer": "StratifiedGroupKFold(5, shuffle, seed 42), group = household (ID RT)",
+            "inner": "StratifiedGroupKFold(4) on development part -> 1 fold calibration (~20%), rest training (~60%)"},
+  "preprocessing": "median imputation + missing indicators + StandardScaler (numeric); constant 'MISSING' + OneHotEncoder(min_frequency=50) (categorical); fit on training only",
+  "imbalance_strategies": {"NONE": "no correction", "CSL": "class_weight='balanced'", "ROS": "random oversampling to 1:1",
+                           "RUS": "random undersampling to 1:1", "SMOTE": "k=5, to 1:1, applied in encoded feature space"},
+  "models": {"LR": "LogisticRegression(C=1, lbfgs, max_iter=3000)",
+             "RF": "RandomForest(200 trees, min_samples_leaf=5, max_features=sqrt, max_samples=0.5)",
+             "HGB": "HistGradientBoosting(max_iter=300, lr=0.08, max_leaf_nodes=31, early_stopping, val=0.1)"},
+  "calibration": {"UNCAL": "raw", "PRIOR": "odds x [pi/(1-pi)]/[pi_s/(1-pi_s)], pi_s=0.5 for CSL/ROS/RUS/SMOTE",
+                  "PLATT": "logistic regression on logit(p), fitted on calibration set",
+                  "ISO": "isotonic regression on p, fitted on calibration set"},
+  "evaluation": {"metrics": "AUC, PR-AUC, Brier, BSS, log loss, ECE (10 equal-width bins), adaptive ECE, MCE, calibration slope & intercept, O/E, Spiegelhalter Z, Murphy decomposition, Sens/Spec/F1/MCC at 0.5 and at training prevalence",
+                 "bootstrap": "household cluster bootstrap, B=1000, fold 0", "tests": "Friedman + Nemenyi CD (alpha 0.05) across 5 folds"},
+  "software_cloud_run": "Python 3.11.15, scikit-learn 1.8.0, numpy 2.4.4, pandas 3.0.2, scipy 1.17.1, matplotlib 3.10.9"
+}

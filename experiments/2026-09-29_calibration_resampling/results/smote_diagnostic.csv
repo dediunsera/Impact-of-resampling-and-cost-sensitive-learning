@@ -1,0 +1,8 @@
+quantity,value
+binary (dummy/indicator) columns in design matrix,497.0
+share of synthetic cells in binary columns with non-0/1 value,0.0665
+share of synthetic rows with >=1 non-0/1 binary cell,0.9993
+"AUC separating synthetic vs real minority, HGB (5-fold, mean)",1.0
+"AUC separating synthetic vs real minority, HGB (SD)",0.0
+"AUC separating synthetic vs real minority, LR (5-fold, mean)",0.5536
+"AUC separating synthetic vs real minority, LR (SD)",0.0087

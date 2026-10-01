@@ -1,0 +1,54 @@
+variable,reason
+I49.Alasan [NAMA] mendapatkan PMT? a.	Gizi buruk,Alasan PMT karena status gizi (turunan outcome)
+I49.b.	Gizi Kurang/BGM,Alasan PMT karena status gizi (turunan outcome)
+I49.c.	Kurus,Alasan PMT karena status gizi (turunan outcome)
+I49.d.	Berat badan tidak naik 2 kali (2T),Alasan PMT karena status gizi (turunan outcome)
+"J01.b.KHUSUS BALITA, Kondisi kesehatan saat pengukuran?",Antropometri saat ini / proses pengukuran (kebocoran target)
+J01.c.Berat Badan (kg),Antropometri saat ini / proses pengukuran (kebocoran target)
+J02.b.Tinggi/Panjang Badan (cm),Antropometri saat ini / proses pengukuran (kebocoran target)
+"J02.c.KHUSUS UNTUK BALITA, (Posisi pengukuran TB/PB)",Antropometri saat ini / proses pengukuran (kebocoran target)
+J03.a.Apakah [NAMA] diukur Lingkar Perut?,Antropometri saat ini / proses pengukuran (kebocoran target)
+J03.b.Lingkar Perut (Cm),Antropometri saat ini / proses pengukuran (kebocoran target)
+J07.a.Apakah [NAMA] diukur Lingkar Lengan Atas (LILA)?,Antropometri saat ini / proses pengukuran (kebocoran target)
+J07.b.Lingkar Lengan Atas (cm),Antropometri saat ini / proses pengukuran (kebocoran target)
+Penimbang Populasi Individu,Bobot sampling (dipakai hanya untuk prevalensi tertimbang)
+Penimbang Populasi RT,Bobot sampling (dipakai hanya untuk prevalensi tertimbang)
+4. Jenis Kelamin,Digantikan kode sex
+ID ART,Identifier / desain sampling
+ID RT,Identifier / desain sampling
+ID Ibu,Identifier / desain sampling
+ID Anak Terakhir,Identifier / desain sampling
+Primary Sampling Unit,Identifier / desain sampling
+STRATA,Identifier / desain sampling
+1. No Urut ART,Identifier / desain sampling
+2. Kabupaten/Kota,Kardinalitas >500 level
+B07.b.	Tipe atau jenis diabetes mellitus (DM)/ kencing manis yang diderita oleh [NAMA]?,Missing >95%
+B18.Apakah [NAMA] pernah didiagnosis menderita hipertensi oleh dokter?,Missing >95%
+B24.Apakah [NAMA] pernah didiagnosis menderita stroke oleh dokter?,Missing >95%
+G03.c.Sebutkan,Missing >95%
+G14.Sebutkan jenis rokok yang biasa [NAMA] hisap: a.	Rokok kretek,Missing >95%
+G14.b.	Rokok putih,Missing >95%
+G14.c.	Rokok linting,Missing >95%
+G14.d.	Elektrik,Missing >95%
+G14.e.	Shisha,Missing >95%
+G18.Apakah [NAMA] biasa merokok di dalam rumah?,Missing >95%
+G47.Apakah [NAMA] sudah mendapat haid/ menstruasi?,Missing >95%
+I49.h.Sebutkan,Missing >95%
+"I50.f.Jika Ya, berapa kali [Nama] minum susu? Jika 7 kali atau lebih, catat ‘7’",Missing >95%
+"I50.h.Jika Ya, berapa kali [Nama] minum yoghurt Jika 7 kali atau lebih, catat ‘7’",Missing >95%
+HAZ,Outcome
+stunting,Outcome
+G03.b.Menurut [NAMA] apa yang dimaksud dengan stunting?  1)	Berat badan tidak naik,Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.2)	Gagal tumbuh,Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.3)	Kerdil/cebol,Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.4)	Berat badan tidak sesuai dengan Panjang/tinggi badan (Gizi kurang/wasting),Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.5)	Panjang/ tinggi badan tidak sesuai umur (pendek/stunted),Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.6)	Kurang gizi dalam waktu lama,Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.7)	Berat badan tidak sesuai dengan umur (berat badan kurang/underweight),Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.8)	Kurang energi kronis (KEK),Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+G03.9)	Anemia,Persepsi ibu tentang arti stunting (dapat dipengaruhi outcome)
+6. Tanggal Lahir,Tanggal/umur mentah (digantikan age_days)
+2. Tanggal Pengumpulan data: (tgl-bln),Tanggal/umur mentah (digantikan age_days)
+Kode umur,Tanggal/umur mentah (digantikan age_days)
+7. Umur hari,Tanggal/umur mentah (digantikan age_days)
+7. Umur Bulan,Tanggal/umur mentah (digantikan age_days)
